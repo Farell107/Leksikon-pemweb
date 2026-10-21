@@ -1,0 +1,142 @@
+/* ======== GLOBAL ======== */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 20px;
+}
+
+/* ======== TABLE (LEKSIKON) ======== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+th {
+    background: #0077cc;
+    color: white;
+    text-align: left;
+    padding: 8px;
+}
+
+td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background: #f5faff;
+}
+
+tr:hover {
+    background: #eaf5ff;
+}
+
+/* ======== LINK ======== */
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ======== FORM INPUT ======== */
+input[type="text"] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px;
+    outline: none;
+}
+
+/* ======== BUTTON ======== */
+button {
+    background: #0077cc;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #005fa3;
+}
+
+/* ======== NAVIGATION ======== */
+nav a {
+    margin-right: 8px;
+    font-weight: bold;
+    color: #0077cc;
+}
+
+nav a:hover {
+    color: #005fa3;
+}
+
+/* ======== PORTAL STYLES (dari HTML sebelumnya) ======== */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Grid container untuk kartu portal */
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Card portal */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.1);
+    transition: 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0px 6px 16px rgba(0,0,0,0.15);
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+/* Tombol biru untuk portal */
+a.button {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 10px;
+    background: #007bff;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+a.button:hover {
+    background: #0056d6;
+}
+
+/* Search box pada portal */
+.search-box {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.search-box input {
+    padding: 10px;
+    width: 280px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
